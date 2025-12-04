@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SMA Negeri 67</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+  <!-- Navbar -->
+  <header class="bg-[#FFFBFO] shadow sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded bg-[#0D3B66] flex items-center justify-center text-white font-bold">67</div>
+        <span class="font-semibold text-lg">SMA Negeri 67</span>
+      </a>
+      <nav class="hidden md:flex gap-6">
+        <a href="#profil" class="hover:text-blue-700">Profil</a>
+        <a href="#program" class="hover:text-blue-700">Program</a>
+        <a href="#galeri" class="hover:text-blue-700">Galeri</a>
+        <a href="#kontak" class="hover:text-blue-700">Kontak</a>
+        <a href="login.html" class="hover:text-blue-700">login</a>
+      </nav>
+      <button class="md:hidden px-3 py-2 rounded bg-blue-600 text-white">Menu</button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-[#0D3B66] text-white">
+    <div class="max-w-6xl mx-auto px-4 py-16 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-3xl md:text-4xl font-bold mb-4">SMA NEGRI 67</h1>
+        <p class="text-white/90 mb-6">
+          Sekolah menengah atas yang berkomitmen membentuk generasi berintegritas, berprestasi, dan berkarakter.
+        </p>
+        <div class="flex gap-3">
+          <a href="#profil" class="px-5 py-3 rounded bg-white text-blue-700 font-medium hover:bg-blue-50">Lihat Profil</a>
+          <a href="#program" class="px-5 py-3 rounded border border-white/70 font-medium hover:bg-white/10">Program Unggulan</a>
+        </div>
+      </div>
+
+
+        <!--Bagian kotak dekat foto-->
+      <div class="relative">
+        <img src="img/sekolah.png" alt="Gedung SMA Negeri 67" class="rounded-lg shadow-lg ring-1 ring-white/20">
+        <div class="absolute -bottom-4 -right-4 bg-white text-blue-700 rounded-lg shadow px-4 py-2 text-sm font-medium">
+          Semangat Belajar • Prestasi • Karakter
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--profil sekolah-->
+  <section id="profil" class="max-w-6xl mx-auto px-4 py-14">
+    <div class="grid md:grid-cols-2 gap-8">
+      <div>
+        <h2 class="text-2xl font-bold mb-3">Profil singkat</h2>
+        <p class="mb-4">
+          SMA Negeri 67 merupakan sekolah negeri yang menyediakan lingkungan belajar kondusif,
+          fasilitas memadai, dan kegiatan pengembangan diri yang beragam bagi peserta didik.
+        </p>
+        <ul class="space-y-2">
+          <li class="flex items-start gap-3">
+            <span class="w-2 h-2 mt-2 rounded-full bg-blue-600"></span>
+            <div><span class="font-semibold">Visi:</span> Mencetak lulusan unggul dalam akademik, karakter, dan kepemimpinan.</div>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="w-2 h-2 mt-2 rounded-full bg-blue-600"></span>
+            <div><span class="font-semibold">Misi:</span> Mengintegrasikan pembelajaran, ekstrakurikuler, dan budaya sekolah yang positif.</div>
+          </li>
+        </ul>
+      </div>
+      <div class="bg-white rounded-lg shadow p-6">
+        <h3 class="text-lg font-semibold mb-3">Fasilitas utama</h3>
+        <div class="grid grid-cols-2 gap-3 text-sm">
+          <div class="p-3 rounded border">Laboratorium Sains</div>
+          <div class="p-3 rounded border">Perpustakaan</div>
+          <div class="p-3 rounded border">Lapangan Olahraga</div>
+          <div class="p-3 rounded border">Ruang Multimedia</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Program sekolahnya -->
+  <section id="program" class="bg-[#0D3B66]">
+    <div class="max-w-6xl mx-auto px-4 py-14">
+      <h2 class="text-2xl text-white font-bold mb-6">Program unggulan</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="rounded-lg border p-5">
+          <h4 class="font-semibold mb-2 text-white">Akademik</h4>
+          <p class="text-sm text-white">Pembinaan olimpiade, klub riset, dan pendampingan belajar terstruktur.</p>
+        </div>
+        <div class="rounded-lg border p-5">
+          <h4 class="font-semibold mb-2 text-white">Karakter</h4>
+          <p class="text-sm text-white">Program literasi, pembiasaan, dan kepemimpinan siswa.</p>
+        </div>
+        <div class="rounded-lg border p-5">
+          <h4 class="font-semibold mb-2 text-white">Ekstrakurikuler</h4>
+          <p class="text-sm text-white">Pramuka, Paskibra, KIR, Seni, Bahasa, dan olahraga.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galeri -->
+  <section id="galeri" class="max-w-6xl mx-auto px-4 py-14">
+    <h2 class="text-2xl font-bold mb-6">Galeri sekolah</h2>
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+      
+      <figure class="bg-white rounded-lg shadow overflow-hidden">
+        <img src="img/sekolah.png" alt="Tampak depan SMA Negeri 67" class="w-full h-48 object-cover">
+        <figcaption class="px-4 py-3 text-sm">Tampak depan sekolah</figcaption>
+      </figure>
+     
+      <figure class="bg-white rounded-lg shadow overflow-hidden">
+        <img src="img/kelas.jpeg" alt="Ruang kelas" class="w-full h-48 object-cover">
+        <figcaption class="px-4 py-3 text-sm">Ruang kelas</figcaption>
+      </figure>
+
+      <figure class="bg-white rounded-lg shadow overflow-hidden">
+        <img src="img/lapangan.jpeg" alt="Lapangan olahraga" class="w-full h-48 object-cover">
+        <figcaption class="px-4 py-3 text-sm">Lapangan olahraga</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Gamifikasi: Quiz -->
+   <div class="bg-[#0D3B66]">
+<section id="quiz" class="max-w-2xl mx-auto px-4 py-14">
+  <h2 class="text-2xl font-bold mb-6 text-white">Quiz SMA Negeri 67</h2>
+  <p class="mb-4 text-white">Berapa nomor SMA Negeri kita?</p>
+  <div class="flex gap-3">
+    <button onclick="checkAnswer(66)" class="px-4 py-2 rounded bg-gray-200 hover:bg-gray-300">66</button>
+    <button onclick="checkAnswer(67)" class="px-4 py-2 rounded bg-gray-200 hover:bg-gray-300">67</button>
+    <button onclick="checkAnswer(68)" class="px-4 py-2 rounded bg-gray-200 hover:bg-gray-300">68</button>
+  </div>
+  <p id="result" class="mt-4 font-semibold"></p>
+</section>
+
+<script>
+  let score = 0;
+  function checkAnswer(ans) {
+    if(ans === 67){
+      score += 100;
+      document.getElementById('result').innerText = "Benar! Skor kamu: " + score;
+      document.getElementById('result').style.color = "green";
+    } else {
+      document.getElementById('result').innerText = "Salah, coba lagi!";
+      document.getElementById('result').style.color = "red";
+    }
+  }
+</script>
+
+  <!-- Kontak -->
+  <section id="kontak" class="bg-gray-100">
+    <div class="max-w-6xl mx-auto px-4 py-14">
+      <h2 class="text-2xl font-bold mb-3">Kontak</h2>
+      <p class="mb-4">Untuk informasi lebih lanjut, silakan hubungi administrasi sekolah.</p>
+      <div class="grid md:grid-cols-3 gap-6 text-sm">
+        <div class="bg-white rounded-lg shadow p-5">
+          <p><span class="font-semibold">Alamat:</span> Jl. Contoh Alamat No. 67, Kota Anda</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-5">
+          <p><span class="font-semibold">Telepon:</span> (021) 1234567</p>
+        </div>
+        <div class="bg-white rounded-lg shadow p-5">
+          <p><span class="font-semibold">Email:</span> info@sman67.sch.id</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#012C4E] border-t">
+    <div class="max-w-6xl mx-auto px-4 py-6 flex flex-col md:flex-row items-center justify-between gap-4">
+      <p class="text-sm text-white">© 2025 SMA Negeri 67. Semua hak dilindungi.</p>
+      <div class="flex gap-4 text-sm text-white">
+        <a href="#" class="hover:text-blue-700">Kebijakan Privasi</a>
+        <a href="#" class="hover:text-blue-700">Syarat & Ketentuan</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

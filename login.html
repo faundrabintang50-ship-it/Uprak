@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Website Pendidikan</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#0D3B66] min-h-screen flex items-center justify-center">
+
+  <div class="bg-white shadow-lg rounded-lg w-full max-w-md p-8">
+    <!-- Judul -->
+    <h1 class="text-2xl font-bold text-center text-[#0D3B66] mb-6">
+      Login
+    </h1>
+
+    <!-- Form -->
+    <form action="login.php" method="POST" class="space-y-5">
+      <!-- Username -->
+      <div>
+        <label for="username" class="block text-sm font-medium text-gray-700">Username</label>
+        <input type="text" id="username" name="username" required
+          class="mt-1 w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none">
+      </div>
+
+      <!-- Password -->
+      <div>
+        <label for="password" class="block text-sm font-medium text-gray-700">Password</label>
+        <input type="password" id="password" name="password" required
+          class="mt-1 w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none">
+      </div>
+
+      <!-- Tombol Login -->
+      <button type="submit"
+        class="w-full bg-[#0D3B66] text-white py-2 rounded-lg hover:bg-blue-700 transition duration-300">
+        Login
+      </button>
+    </form>
+
+    <!-- Link tambahan -->
+    <p class="text-center text-sm text-gray-600 mt-6">
+      Belum punya akun? <a href="register.html" class="text-blue-600 hover:underline">Daftar di sini</a>
+    </p>
+  </div>
+
+</body>
+</html>
